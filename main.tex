@@ -1,0 +1,48 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{lmodern}
+\geometry{a4paper, margin=2.5cm}
+
+\title{Rapport de Stage}
+\author{Ibrahim Belkhodja}
+\date{Mars - Août 2025}
+
+\begin{document}
+
+% Page de garde
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/logo.png}\par
+    \vspace{1cm}
+    {\scshape\LARGE Université Sorbonne Paris Nord \par}
+    \vspace{1cm}
+    {\scshape\Large École Sup Galilée\par}
+    \vspace{1.5cm}
+    {\huge\bfseries Rapport de Stage\par}
+    \vspace{0.5cm}
+    {\Large\itshape Avril – Sept 2025\par}
+    \vspace{2.5cm}
+    {\Large\bfseries Ibrahim Belkhodja\par}
+    \vfill
+    {\large Encadré par : Prénom Nom \\ Entreprise : Audensiel\par}
+    \vspace{1cm}
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+
+% Sections
+\input{sections/remerciements.tex}
+\input{sections/introduction.tex}
+\input{sections/entreprise.tex}
+\input{sections/missions.tex}
+\input{sections/chapitre1.tex}
+\input{sections/conclusion.tex}
+
+\end{document}
